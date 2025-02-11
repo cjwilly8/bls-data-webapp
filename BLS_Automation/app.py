@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 # Load CSV with BLS codes
-csv_file_path = csv_file_path = r "C:\Users\ConnorWills\OneDrive - Mangum Economic Consulting, LLC\Connor\Work\BLS Automation\la_area_with_correct_series_ids.csv"
+csv_file_path = "la_area_with_correct_series_ids.csv"
 df_csv = pd.read_csv(csv_file_path)
 
 # Extract state and county codes
