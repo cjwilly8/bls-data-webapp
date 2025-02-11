@@ -1,0 +1,50 @@
+Construction - IIA 52
+	enter employment jobs (local jobs) and output
+	zero out proprietor
+
+Lunch + Breakfast - Commodity Output 3510 
+	SAM
+
+Gas - Commodity Output 3408
+
+Hotel - Industry Output 507
+
+Dinner - commodity output 3509
+
+Elec. 514 - IIA 514
+	enter employment jobs, compensation, and output
+	zero out proprietor
+
+Elec. 515 - IIA 515
+	enter employment jobs, compensation, and output
+	zero out proprietor
+
+Elec. 60 - IIA 60
+	enter employment jobs, compensation, and output
+	zero out proprietor
+
+Veg. Main - Commodity Output 477
+
+Cleaning/Other Maintenance - Commodity Output 60
+
+Agri. - Industry Output # 
+	2017 Dollars
+
+	Corn is 2
+	Soy is 1
+	Timber is 15
+
+Lease - Household Income 
+	50-70k 
+
+
+New industry codes for our projects! The ag codes didn't change 
+Construction of New Power Structures  52 > 47
+Lunch/Breakfast (limited-service restaurants) 510 > 492
+Hotel 507 > 489
+Dinner (full service restaurants) 509 > 491
+Incidentals (food, health, gas) 406-408 > 389-391
+Electronic and precision equipment repair and maintenance 514 > 496
+Commercial and Industrial machinery and equipment repair and maintenance 515 > 497
+Maintenance of non residential structures 60 > 55
+Vegetative Maintenance 477 > 459
