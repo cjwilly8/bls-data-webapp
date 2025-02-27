@@ -64,7 +64,7 @@ def fetch_data():
     api_key = "your_api_key_here"
     data_payload = {
         "seriesid": series_ids,
-        "startyear": "2017",
+        "startyear": "2000",
         "endyear": "2024",
     }
 
