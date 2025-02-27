@@ -41,10 +41,11 @@ def fetch_data():
         return
 
     # Get the county and state data
-    county_data = county_series[
-        (county_series["area_text"].str.contains(county_name)) & 
-        (county_series["area_text"].str.endswith(state_abbr))
+    county_data = df_csv[
+        (df_csv["area_text"].str.contains(county_name, case=False, na=False)) &
+        (df_csv["area_text"].str.endswith(state_abbr, na=False))
     ]
+
 
     if county_data.empty:
         messagebox.showerror("Error", f"Could not find data for {county_name}, {state_name}.")
